@@ -1,4 +1,8 @@
 
+body{
+  margin: 0px;
+}
+
 .backgroundOne{
   background-color: darkblue;
   background-size: cover;
