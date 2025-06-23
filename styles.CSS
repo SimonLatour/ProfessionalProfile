@@ -1,18 +1,13 @@
 
 .backgroundOne{
-  background-color: aliceblue;
+  background-color: darkblue;
   background-size: cover;
   position: static;
   background-repeat: no-repeat;
 }
 
-
-
-body {
-  background-color: rgb(144, 106, 216);
-}
 h1 {
-  color: blue;
+  color: pink;
 }
 p {
   color: red;
