@@ -1,3 +1,13 @@
+
+.backgroundOne{
+  background-color: aliceblue;
+  background-size: cover;
+  position: static;
+  background-repeat: no-repeat;
+}
+
+
+
 body {
   background-color: rgb(144, 106, 216);
 }
