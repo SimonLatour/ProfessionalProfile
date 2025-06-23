@@ -1,3 +1,5 @@
-Author: Simon Latour \n
-Email: slatou857@gmail.com 
-
+/**
+* Author: Simon Latour
+* Email: slatou857@gmail.com 
+*
+**/
