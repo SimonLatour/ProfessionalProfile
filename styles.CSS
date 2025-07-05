@@ -2,13 +2,29 @@
 body{
   margin: 0px;
 }
-
-.backgroundOne{
+header{
+  margin: 0px; 
+}
+.backgroundHeader{
   background-color: darkblue;
   background-size: cover;
-  position: static;
   background-repeat: no-repeat;
+  background-position: center top;
+  position: static;
+  margin-bottom: 0px;
+  scroll-margin-top: 0px;
+  margin-top: 0px;
 }
+
+
+.testGround{
+
+  background-color: blueviolet;
+  background-size: cover;
+  position: static;
+
+}
+
 
 h1 {
   color: pink;
