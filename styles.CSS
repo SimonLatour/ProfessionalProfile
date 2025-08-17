@@ -2,7 +2,7 @@
 body{
   margin: 0px;
   background-color: white;
-  align-items: center;
+  
 }
 
 header{
@@ -10,71 +10,87 @@ header{
 }
 
 .header{
-  background-color: darkblue;
+  background-color: rgb(15, 15, 15);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
   position: static;
-  
   margin: 0px;
-  padding: 10%;  
+  padding: 1%;  
   top: 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   
 }
 
 
 .contentContainer{
-  background-color: #1a1a1a;
-  padding: 2%;
-  padding-top: 5%;
-  padding-bottom: 10%;
-  text-align: center;
+  background-color: lightgray;
   
-
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  overflow: hidden;
+  text-align: center;
 }
 
 
 .pageContent{
-  background-color: rgb(22, 22, 22);
+
   background-size: cover;
   position: static;
   margin: 0px; 
-  padding: 5%; 
+  padding: 0%; 
   top: 0px;
-  width: 55%;
+  width: 50%;
   display: inline-block;
-  margin-right: 2%;
+  border: 0px;
+  left: 0%;
+  text-align: left;
 
 }
 
 .sideContent{
+  background-color: rgb(194, 194, 194);
 
-  background-color: rgb(22, 22, 22);
-  background-size: cover;
   position: static;
   margin: 0px; 
-  padding: 5%; 
+  padding: 2%; 
   top: 0px;
-  width: 22%;
+  right: 0%;
+  width: 20%;
   display: inline-block;
   vertical-align: top;
   right: 0px;
+  border: 0px;
+  text-align: left;
+  margin-left: 5%;
+
 
 }
 
 .contentContainer h1{
   font-size: 30px;
-  color: #b3b3b3;
+  color: black;
+  
 
 }
 
 .contentContainer p{
   font-size: 20px;
-  color: #b3b3b3;
+  color: black;
 
 } 
 
+.navBarContainer{
+  text-align: left;
+
+
+}
+
 .navBar{
+  font-size: 20px;
   position: fixed;
   width: 100%;
   top: 0px; 
@@ -86,16 +102,17 @@ header{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: white;
 }
 
 .navBar li {
-  float: left;
+  float: right;
 }
 
 .navBar li a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: block;
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -103,15 +120,22 @@ header{
 
 .navBar li a:hover {
   background-color: #111;
+  color: white;
 }
 
 
 .header h1 {
-  font-size: 80px;
+  font-size: 60px;
+  padding: 0px;
+  margin: 0%;
+  margin-top: 40px;
   color: rgb(255, 255, 255);
 }
 .header h2 {
   font-size:30px;
+  padding: 0%;
+  margin: 0%;
+  margin-top: 10px;
   color: rgb(214, 214, 214);
 }
 
@@ -128,7 +152,7 @@ p {
 .footerContent{
   width: 100%;
   position: static;
-  background-color: #333;
+  background-color: rgb(15, 15, 15);
 }
 
 .footerContent ul{
@@ -137,7 +161,7 @@ p {
   margin: 10px;
   padding: 10px;
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(15, 15, 15);
 }
 .footerContent li {
   float: left;
@@ -161,4 +185,57 @@ p {
 }
 .footerContent li a:hover {
   background-color: #1a1a1a;
+}
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0%;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: white;
 }
